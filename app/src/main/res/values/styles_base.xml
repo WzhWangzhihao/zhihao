@@ -1,0 +1,75 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 基本属性 -->
+    <style name="w_wrap_content_h_wrap_content">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="w_fill_parent_h_wrap_content">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="w_wrap_content_h_fill_parent">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+
+    <style name="w_fill_parent_h_fill_parent">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+	<style name="w_fill_parent_h_wrap_content_horizontal" parent="@style/fw">
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="w_wrap_content_h_wrap_content_horizontal" parent="@style/ww">
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="w_fill_parent_h_wrap_content_vertical" parent="@style/fw">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="w_fill_parent_h_fill_parent_vertical" parent="@style/ff">
+        <item name="android:orientation">vertical</item>
+    </style>
+	<style name="w_fill_parent_h_fill_parent_vertical_horizontal" parent="@style/ff">
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="w_wrap_content_h_wrap_content_vertical" parent="@style/ww">
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="w_wrap_content_h_wrap_content_weight_1" parent="@style/ww">
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="w_fill_parent_h_wrap_content_weight_1" parent="@style/fw">
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="w_fill_parent_h_fill_parent_weight_1_vertical" parent="@style/ffw">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="w_fill_parent_h_wrap_content_weight_1_vertical" parent="@style/fww">
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="w_fill_parent_h_wrap_content_weight_1_horizontal" parent="@style/fww">
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="w_fill_parent_h_fill_parent_weight_1_horizontal" parent="@style/ffw">
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="w_fill_parent_h_fill_parent_weight_1" parent="@style/ff">
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="w_wrap_content_h_fill_parent_weight_1" parent="wf">
+        <item name="android:layout_weight">1</item>
+    </style>
+    <style name="w_wrap_content_h_fill_parent_vertical" parent="@style/wf">
+        <item name="android:orientation">vertical</item>
+    </style>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  <!-- list选择器 -->
+    <item android:state_pressed="true">
+        <shape>
+		    <corners android:radius="6dip" />
+		    <solid android:color="#11000000"/>
+		</shape>
+    </item>
+    <item android:drawable="@color/transparent"></item>
+</selector>

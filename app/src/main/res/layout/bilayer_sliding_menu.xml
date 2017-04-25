@@ -1,0 +1,27 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   style="@style/ff"
+   android:focusable="true"
+	    android:focusableInTouchMode="true">
+   <!-- 底层容器 -->
+	<FrameLayout style="@style/ff"
+	    android:id="@+id/fl_under_layer">
+	    
+	</FrameLayout>
+	<!-- 上层容器 -->
+	<com.p.lib.widget.scroller.MarginHorizontalScrollView style="@style/ff"
+	    android:fillViewport="true"
+	    menuwidth="100dip"
+	    android:scrollbars="none"
+	    android:overScrollMode="never"
+	    android:fadingEdge="none"
+	    android:id="@+id/sv_top_layer">
+	    <!-- 上层容器 -->
+	    <FrameLayout style="@style/ff"
+	        android:id="@+id/fl_top_layer">
+	        <FrameLayout style="@style/ff"
+	            android:id="@+id/fl_top_layer_inner">
+	            
+	        </FrameLayout>
+	    </FrameLayout>
+	</com.p.lib.widget.scroller.MarginHorizontalScrollView>
+</FrameLayout>

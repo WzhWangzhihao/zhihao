@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">亚银收银系统</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="find_pwd"><u>找回密码</u></string>
+    <string name="reg_user"><u>激活工号/邮箱</u></string>
+    <string name="title_activity_ok_receivables">OkReceivablesAct</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+
+    <!-- nromal displays -->
+    <string name="device_not_open">device is not opened</string>
+    <string name="device_opened">device is opened</string>
+    <string name="operation_failed"> failed</string>
+    <string name="operation_with_error">failed, error code = </string>
+    <string name="operation_successful">successfully</string>
+    <string name="print_QR_code"> This is start</string>
+</resources>

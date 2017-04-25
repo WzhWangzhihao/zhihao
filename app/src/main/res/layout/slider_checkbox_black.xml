@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.p.lib.widget.ScrollLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sll_slider"
+    android:orientation="horizontal"
+    android:layout_width="70dip"
+    android:layout_height="26dip"
+    android:background="@drawable/shape_black_box"
+    android:gravity="center">
+    <View android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:layout_margin="4dip"
+        android:id="@+id/v_slider_box"/>
+</com.p.lib.widget.ScrollLinearLayout>
